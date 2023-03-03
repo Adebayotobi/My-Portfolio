@@ -57,8 +57,9 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Adebayo Tobi, a`} <span className="txt-rotate" dataperiod="1000" data-rotate='["Frontend Developer", "Software Developer", "Web Developer"]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a React Front-End Developer offering experience providing high-impact web solutions for diverse
-                    industry organizations.</p>
+                  <p>     Creative React Front-End Developer offering experience providing high-impact web solutions for diverse industry organizations. Skilled in designing and developing web-based applications incorporating a range of technologies.</p>
+                  {/* <p>I am a React Front-End Developer offering experience providing high-impact web solutions for diverse
+                    industry organizations.</p> */}
                   <button onClick={() => console.log('connect')}>Hire Me <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
