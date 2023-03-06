@@ -1,7 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-// import projImg1 from "../assets/img/project-img1.png";
-// import projImg2 from "../assets/img/project-img2.png";
+import { ProjectCard } from "./ProjectCard"
 import skillup from "../assets/img/skillup.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project5.png";
@@ -16,9 +14,9 @@ export const Projects = () => {
   const projects = [
     {
       title: "Skillup Africa",
-      description: "An application that is build for ",
+      description: "An application that provides young Africans with top quality training in globally viable skills and connects them to opportunities to harness the skills ",
       imgUrl: skillup,
-      id:"hhttps://skillup-community.netlify.app/"
+      id:"https://skillup-community.netlify.app/"
     },
     {
       title: "Meet App",
