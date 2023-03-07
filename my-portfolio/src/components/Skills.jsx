@@ -1,11 +1,14 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import react from "../assets/img/react.png";
+import bootstrap from "../assets/img/bootsrap.jpg";
+import tailwind from "../assets/img/tailwind.png";
+import git from "../assets/img/git.png";
+import html from "../assets/img/html.png";
+import javascript from "../assets/img/javascript.jpg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import 'animate.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+import chakra from "../assets/img/chakra.png";
+import rest from "../assets/img/restful.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -36,38 +39,38 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx ">
                         <h2>Skills</h2>
-                        <p> I am a problem-solver, with a can-do attitude that aim success at a start<br></br> I am also efficient through optimization. I am skilled in web development applications like;</p>
+                        <p> I am a problem-solver, with a can-do attitude. I aim for success right from the start of anything<br></br> I am also efficient anywhere i find myself. I have pratical skills like;</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={react} alt="Image" />
                                 <h5>REACT Js</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={bootstrap} alt="Image" />
                                 <h5>Bootstrap</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={tailwind} alt="Image" />
                                 <h5>Tailwind</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={git} alt="Image" />
                                 <h5>GIT</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={html} alt="Image" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={javascript} alt="Image" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={chakra} alt="Image" />
                                 <h5>Chakra UI</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={rest} alt="Image" />
                                 <h5>RESTful API</h5>
                             </div>
                         </Carousel>

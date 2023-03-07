@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Frontend Developer", "Software Developer", "Web Developer"];
+  const toRotate = ["Frontend Developer", "Tech Writer", "Problem Solver"];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Adebayo Tobi, a`} <span className="txt-rotate" dataperiod="1000" data-rotate='["Frontend Developer", "Software Developer", "Web Developer"]'><span className="wrap">{text}</span></span></h1>
-                  <p>     Creative React Front-End Developer offering experience providing high-impact web solutions for diverse industry organizations. Skilled in designing and developing web-based applications incorporating a range of technologies.</p>
+                  <p> Creative Frontend Developer offering experience and providing high-impact web solutions for diverse industries and organizations. Skilled in designing and developing web-based applications incorporating a range of technologies.</p>
                   {/* <p>I am a React Front-End Developer offering experience providing high-impact web solutions for diverse
                     industry organizations.</p> */}
                   <button onClick={() => console.log('connect')}>Hire Me <ArrowRightCircle size={25} /></button>
