@@ -3,6 +3,7 @@ import bootstrap from "../assets/img/bootsrap.jpg";
 import tailwind from "../assets/img/tailwind.png";
 import git from "../assets/img/git.png";
 import html from "../assets/img/html.png";
+import typescript from "../assets/img/typescript.png";
 import javascript from "../assets/img/javascript.jpg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -46,6 +47,14 @@ export const Skills = () => {
                                 <h5>REACT Js</h5>
                             </div>
                             <div className="item">
+                                <img src={javascript} alt="Image" />
+                                <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={typescript} alt="Image" />
+                                <h5>Typescript</h5>
+                            </div>
+                            <div className="item">
                                 <img src={bootstrap} alt="Image" />
                                 <h5>Bootstrap</h5>
                             </div>
@@ -60,10 +69,6 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={html} alt="Image" />
                                 <h5>HTML</h5>
-                            </div>
-                            <div className="item">
-                                <img src={javascript} alt="Image" />
-                                <h5>Javascript</h5>
                             </div>
                             <div className="item">
                                 <img src={chakra} alt="Image" />

@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard"
 import skillup from "../assets/img/skillup.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project5.png";
+import Howbodi from "../assets/img/howbodi.png";
 import projImg1 from "../assets/img/project1.png";
 import projImg4 from "../assets/img/project4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -13,22 +14,28 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Howbodi",
+      description: "An application that helps you to access mental healthcare from anywhere in the world",
+      imgUrl: Howbodi,
+      id:"https://www.howbodi.io/"
+    },
+    {
       title: "Skillup Africa",
       description: "An application that provides young Africans with top quality training in globally viable skills and connects them to opportunities to harness the skills ",
       imgUrl: skillup,
       id:"https://skillup-community.netlify.app/"
     },
-    {
-      title: "Meet App",
-      description: "An application that helps to meet people of similar interest",
-      imgUrl: projImg1,
-      id:"https://interest-group.onrender.com/"
-    },
+    // {
+    //   title: "Meet App",
+    //   description: "An application that helps to meet people of similar interest",
+    //   imgUrl: projImg1,
+    //   id:"https://interest-group.onrender.com/"
+    // },
     {
       title: "Tochel Partners",
       description: "A company that carries out parts and articulated trucks sales and supply",
       imgUrl: projImg4,
-      id:"https://thetochelandpartners.netlify.app"
+      id:"https://detochelandpartners.netlify.app/"
     },
     
     {
