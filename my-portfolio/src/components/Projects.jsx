@@ -25,12 +25,7 @@ export const Projects = () => {
       imgUrl: skillup,
       id:"https://skillup-community.netlify.app/"
     },
-    // {
-    //   title: "Meet App",
-    //   description: "An application that helps to meet people of similar interest",
-    //   imgUrl: projImg1,
-    //   id:"https://interest-group.onrender.com/"
-    // },
+   
     {
       title: "Tochel Partners",
       description: "A company that carries out parts and articulated trucks sales and supply",
@@ -51,17 +46,6 @@ export const Projects = () => {
       id:"https://myinstagram-profile.netlify.app"
     },
 
-
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg2,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
   ];
 
   return (
