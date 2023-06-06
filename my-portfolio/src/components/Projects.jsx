@@ -1,10 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard"
 import skillup from "../assets/img/skillup.png";
-import projImg2 from "../assets/img/project2.png";
+import Skillup from "../assets/img/skillupWeb.png";
 import projImg3 from "../assets/img/project5.png";
 import Howbodi from "../assets/img/howbodi.png";
-import projImg1 from "../assets/img/project1.png";
+import WhoUePP from "../assets/img/whoUEpp.png";
 import projImg4 from "../assets/img/project4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -23,9 +23,21 @@ export const Projects = () => {
       title: "Skillup Africa",
       description: "An application that provides young Africans with top quality training in globally viable skills and connects them to opportunities to harness the skills ",
       imgUrl: skillup,
-      id:"https://skillup-community.netlify.app/"
+      id:"https://community.skillupafrica.com.ng/"
     },
    
+    {
+      title: "Who U Epp",
+      description: "A company that enables borrowers to access funds quickly and easily while allowing lenders to earn competitive returns on their investments.",
+      imgUrl: WhoUePP,
+      id:"https://www.whouepp.com/"
+    },
+    {
+      title: "Skillup Africa",
+      description: "Skillup Africa Digital Skills Empowerment Program is in its 6th Cohort and open to young people from Africa interested in learning viable Tech skills and attracting opportunities globally.ks sales and supply",
+      imgUrl: Skillup,
+      id:"https://skillupafricadsep.netlify.app/"
+    },
     {
       title: "Tochel Partners",
       description: "A company that carries out parts and articulated trucks sales and supply",
@@ -39,12 +51,12 @@ export const Projects = () => {
       imgUrl: projImg3,
       id:"https://linkedin-clone-28da2.web.app/"
     },
-    {
-      title: "MyInstrgram",
-      description: "Instagram Profile Page",
-      imgUrl: projImg2,
-      id:"https://myinstagram-profile.netlify.app"
-    },
+    // {
+    //   title: "MyInstrgram",
+    //   description: "Instagram Profile Page",
+    //   imgUrl: projImg2,
+    //   id:"https://myinstagram-profile.netlify.app"
+    // },
 
   ];
 

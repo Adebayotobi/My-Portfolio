@@ -5,6 +5,7 @@ import git from "../assets/img/git.png";
 import html from "../assets/img/html.png";
 import typescript from "../assets/img/typescript.png";
 import javascript from "../assets/img/javascript.jpg";
+import next from "../assets/img/nextjs.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import 'animate.css';
@@ -47,12 +48,20 @@ export const Skills = () => {
                                 <h5>REACT Js</h5>
                             </div>
                             <div className="item">
-                                <img src={javascript} alt="Image" />
-                                <h5>Javascript</h5>
+                                <img src={next} alt="Image" />
+                                <h5>Next JS</h5>
                             </div>
                             <div className="item">
                                 <img src={typescript} alt="Image" />
                                 <h5>Typescript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={javascript} alt="Image" />
+                                <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={react} alt="Image" />
+                                <h5>React Testing Library</h5>
                             </div>
                             <div className="item">
                                 <img src={bootstrap} alt="Image" />
