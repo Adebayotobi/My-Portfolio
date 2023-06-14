@@ -14,6 +14,14 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Skillup Africa",
+      description: "Skillup Africa Digital Skills Empowerment Program is in its 6th Cohort and open to young people from Africa interested in learning viable Tech skills and attracting opportunities globally.ks sales and supply",
+      imgUrl: Skillup,
+      // id:"https://skillupafricadsep.netlify.app/"
+      id:"https://dsep.skillupafrica.com.ng/"
+    },
+    
+    {
       title: "Howbodi",
       description: "An application that helps you to access mental healthcare from anywhere in the world",
       imgUrl: Howbodi,
@@ -32,12 +40,7 @@ export const Projects = () => {
       imgUrl: WhoUePP,
       id:"https://www.whouepp.com/"
     },
-    {
-      title: "Skillup Africa",
-      description: "Skillup Africa Digital Skills Empowerment Program is in its 6th Cohort and open to young people from Africa interested in learning viable Tech skills and attracting opportunities globally.ks sales and supply",
-      imgUrl: Skillup,
-      id:"https://skillupafricadsep.netlify.app/"
-    },
+
     {
       title: "Tochel Partners",
       description: "A company that carries out parts and articulated trucks sales and supply",

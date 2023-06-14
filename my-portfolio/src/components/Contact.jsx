@@ -6,6 +6,7 @@ import 'animate.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import TrackVisibility from 'react-on-screen';
+import axios from "axios"
 
 export const Contact = () => {
   // const formInitialDetails = {
@@ -32,24 +33,42 @@ export const Contact = () => {
         [category]: value
       })
   }
-  const handleSubmit = (e) => {
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    setButtonText("Send");
-    setFormDetails(formDetails);
-    console.log(formDetails);
-    toast.success('Thank You For Contacting Me.', {
-      position: toast.POSITION.TOP_RIGHT
-    });
+    try {
+      const response = await axios.post("https://tobi-contract-form.onrender.com/api/v1/message", formDetails);
+      console.log(response.data);
+  
+      toast.success('Thank you for contacting me.', {
+        position: toast.POSITION.TOP_RIGHT,
+        onClose: () => {
+          setFormDetails({
+            firstName: '',
+            lastName: '',
+            email: '',
+            phone: '',
+            message: ''
+          });
+          setButtonText("Send");
+        }
+      });
 
-    setFormDetails({
-      firstName: '',
-      lastName: '',
-      email: '',
-      phone: '',
-      message: ''
-    });
-  }
+    } catch (error) {
+      console.error(error);
+  
+      toast.error('An error occurred. Please try again later.', {
+        position: toast.POSITION.TOP_RIGHT,
+        onClose: () => {
+          setButtonText("Send");
+        }
+      });
+    }
+  };
+  
+  
+ 
 
   return (
     <section className="contact" id="connect">
