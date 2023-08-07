@@ -14,6 +14,7 @@ import rest from "../assets/img/restful.png";
 import node from "../assets/img/node.png";
 import graghql from "../assets/img/grapghql.png";
 import colorSharp from "../assets/img/color-sharp.png"
+import Cypress from "../assets/img/cypress.png"
 
 export const Skills = () => {
   const responsive = {
@@ -72,6 +73,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={react} alt="Image" />
                                 <h5>React Testing Library</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Cypress} alt="Image" />
+                                <h5>Cypress</h5>
                             </div>
                             <div className="item">
                                 <img src={bootstrap} alt="Image" />
