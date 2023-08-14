@@ -48,17 +48,11 @@ export const Projects = () => {
       id:"https://detochelandpartners.netlify.app/"
     },
     
-    {
-      title: "Linkedin",
-      description: "Linkedin clone with firebase",
-      imgUrl: projImg3,
-      id:"https://linkedin-clone-28da2.web.app/"
-    },
     // {
-    //   title: "MyInstrgram",
-    //   description: "Instagram Profile Page",
-    //   imgUrl: projImg2,
-    //   id:"https://myinstagram-profile.netlify.app"
+    //   title: "Linkedin",
+    //   description: "Linkedin clone with firebase",
+    //   imgUrl: projImg3,
+    //   id:"https://linkedin-clone-28da2.web.app/"
     // },
 
   ];
@@ -78,12 +72,6 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
                     </Nav.Item>
-                    {/* <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item> */}
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">

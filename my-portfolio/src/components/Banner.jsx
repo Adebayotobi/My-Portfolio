@@ -4,6 +4,7 @@ import headerImg from "../assets/img/myimage.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+// import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -60,7 +61,9 @@ export const Banner = () => {
                   <p> Creative Frontend Developer offering experience and providing high-impact web solutions for diverse industries and organizations. Skilled in designing and developing web-based applications incorporating a range of technologies.</p>
                   {/* <p>I am a React Front-End Developer offering experience providing high-impact web solutions for diverse
                     industry organizations.</p> */}
+                     {/* <HashLink to='#connect'> */}
                   <button onClick={() => console.log('connect')}>Hire Me <ArrowRightCircle size={25} /></button>
+                  {/* </HashLink> */}
                 </div>}
             </TrackVisibility>
           </Col>
