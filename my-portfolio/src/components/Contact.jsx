@@ -9,13 +9,6 @@ import TrackVisibility from 'react-on-screen';
 import axios from "axios"
 
 export const Contact = () => {
-  // const formInitialDetails = {
-  //   firstName: '',
-  //   lastName: '',
-  //   email: '',
-  //   phone: '',
-  //   message: ''
-  // }
   const [formDetails, setFormDetails] = useState(
     {
       firstName: '',
@@ -67,9 +60,6 @@ export const Contact = () => {
     }
   };
   
-  
- 
-
   return (
     <section className="contact" id="connect">
       <Container>
@@ -104,12 +94,7 @@ export const Contact = () => {
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
-                    {/* {
-                      status.message &&
-                      <Col>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                      </Col>
-                    } */}
+
                   </Row>
                   <ToastContainer />
                 </form>
