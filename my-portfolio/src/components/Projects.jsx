@@ -17,7 +17,6 @@ export const Projects = () => {
       title: "Skillup Africa",
       description: "Skillup Africa Digital Skills Empowerment Program is in its 6th Cohort and open to young people from Africa interested in learning viable Tech skills and attracting opportunities globally.ks sales and supply",
       imgUrl: Skillup,
-      // id:"https://skillupafricadsep.netlify.app/"
       id:"https://dsep.skillupafrica.com.ng/"
     },
     
