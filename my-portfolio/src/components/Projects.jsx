@@ -45,14 +45,7 @@ export const Projects = () => {
       description: "A company that carries out parts and articulated trucks sales and supply",
       imgUrl: projImg4,
       id:"https://detochelandpartners.netlify.app/"
-    },
-    
-    // {
-    //   title: "Linkedin",
-    //   description: "Linkedin clone with firebase",
-    //   imgUrl: projImg3,
-    //   id:"https://linkedin-clone-28da2.web.app/"
-    // },
+    }
 
   ];
 
