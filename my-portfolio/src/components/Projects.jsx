@@ -59,7 +59,7 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
                 <p>
-                These showcases my expertise in crafting projects using cutting-edge technologies. I've successfully delivered projects leveraging CSS frameworks, I've also utilized the power of React, Next.js, and TypeScript to develop seamless and efficient user interfaces that bring ideas to life. 
+                These showcases my expertise in crafting projects using cutting-edge technologies. I've successfullyd eveloped projects leveraging CSS frameworks, I've also utilized the power of React, Next.js, and TypeScript to develop seamless and efficient user interfaces that bring ideas to life. 
                 </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">

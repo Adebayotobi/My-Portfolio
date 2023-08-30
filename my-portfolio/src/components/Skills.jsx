@@ -61,10 +61,10 @@ export const Skills = () => {
                                 <img src={javascript} alt="Image" />
                                 <h5>Javascript</h5>
                             </div>
-                            <div className="item">
+                            {/* <div className="item">
                                 <img src={graghql} alt="Image" />
                                 <h5>GraphQL</h5>
-                            </div>
+                            </div> */}
                             <div className="item">
                                 <img src={node} alt="Image" />
                                 <h5>Node js</h5>
