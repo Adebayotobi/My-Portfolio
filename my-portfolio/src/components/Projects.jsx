@@ -40,12 +40,12 @@ export const Projects = () => {
       id:"https://www.whouepp.com/"
     },
 
-    {
-      title: "Tochel Partners",
-      description: "A company that carries out parts and articulated trucks sales and supply",
-      imgUrl: projImg4,
-      id:"https://detochelandpartners.netlify.app/"
-    }
+    // {
+    //   title: "Tochel Partners",
+    //   description: "A company that carries out parts and articulated trucks sales and supply",
+    //   imgUrl: projImg4,
+    //   id:"https://detochelandpartners.netlify.app/"
+    // }
 
   ];
 
