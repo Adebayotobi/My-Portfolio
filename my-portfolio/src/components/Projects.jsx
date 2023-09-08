@@ -2,7 +2,6 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard"
 import skillup from "../assets/img/skillup.png";
 import Skillup from "../assets/img/skillupWeb.png";
-import projImg3 from "../assets/img/project5.png";
 import Howbodi from "../assets/img/howbodi.png";
 import WhoUePP from "../assets/img/whoUEpp.png";
 import projImg4 from "../assets/img/project4.png";
@@ -17,27 +16,27 @@ export const Projects = () => {
       title: "Skillup Africa",
       description: "Skillup Africa Digital Skills Empowerment Program is in its 6th Cohort and open to young people from Africa interested in learning viable Tech skills and attracting opportunities globally.ks sales and supply",
       imgUrl: Skillup,
-      id:"https://dsep.skillupafrica.com.ng/"
+      id:"https://dsep.skillupafrica.com.ng"
     },
     
     {
       title: "Howbodi",
       description: "An application that helps you to access mental healthcare from anywhere in the world",
       imgUrl: Howbodi,
-      id:"https://www.howbodi.io/"
+      id:"https://www.howbodi.io"
     },
     {
       title: "Skillup Africa",
       description: "An application that provides young Africans with top quality training in globally viable skills and connects them to opportunities to harness the skills ",
       imgUrl: skillup,
-      id:"https://community.skillupafrica.com.ng/"
+      id:"https://community.skillupafrica.com.ng"
     },
    
     {
       title: "Who U Epp",
       description: "A company that enables borrowers to access funds quickly and easily while allowing lenders to earn competitive returns on their investments.",
       imgUrl: WhoUePP,
-      id:"https://www.whouepp.com/"
+      id:"https://www.whouepp.com"
     },
 
     // {

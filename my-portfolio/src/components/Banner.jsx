@@ -58,7 +58,6 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Adebayo Tobi, a`} <span className="txt-rotate" dataperiod="1000" data-rotate='["Frontend Developer", "Software Developer", "Web Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p> Creative Frontend Developer offering experience and providing high-impact web solutions for diverse industries and organizations. Skilled in designing and developing web-based applications incorporating a range of technologies.</p>
-
                   <button onClick={() => console.log('connect')}>Hire Me <ArrowRightCircle size={25} /></button>
             
                 </div>}
