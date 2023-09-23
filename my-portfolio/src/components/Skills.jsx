@@ -12,7 +12,6 @@ import 'animate.css';
 import chakra from "../assets/img/chakra.png";
 import rest from "../assets/img/restful.png";
 import node from "../assets/img/node.png";
-import graghql from "../assets/img/grapghql.png";
 import colorSharp from "../assets/img/color-sharp.png"
 import Cypress from "../assets/img/cypress.png"
 
@@ -61,10 +60,6 @@ export const Skills = () => {
                                 <img src={javascript} alt="Image" />
                                 <h5>Javascript</h5>
                             </div>
-                            {/* <div className="item">
-                                <img src={graghql} alt="Image" />
-                                <h5>GraphQL</h5>
-                            </div> */}
                             <div className="item">
                                 <img src={node} alt="Image" />
                                 <h5>Node js</h5>

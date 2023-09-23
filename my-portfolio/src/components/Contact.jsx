@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
 import contactImgg from "../assets/img/reachout.png";
 import 'animate.css';
 import { ToastContainer, toast } from 'react-toastify';

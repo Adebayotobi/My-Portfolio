@@ -4,7 +4,6 @@ import skillup from "../assets/img/skillup.png";
 import Skillup from "../assets/img/skillupWeb.png";
 import Howbodi from "../assets/img/howbodi.png";
 import WhoUePP from "../assets/img/whoUEpp.png";
-import projImg4 from "../assets/img/project4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
