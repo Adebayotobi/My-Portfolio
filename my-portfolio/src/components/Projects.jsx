@@ -7,6 +7,7 @@ import WhoUePP from "../assets/img/whoUEpp.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Filtrd from "../assets/img/filtrd.png"
 
 export const Projects = () => {
 
@@ -17,7 +18,12 @@ export const Projects = () => {
       imgUrl: Skillup,
       id:"https://dsep.skillupafrica.com.ng"
     },
-    
+    {
+      title: "Filtrd",
+      description: "An application that helps to manage your business expenses without hassles",
+      imgUrl: Filtrd,
+      // id:"https://filtrd.io/"
+    },
     {
       title: "Howbodi",
       description: "An application that helps you to access mental healthcare from anywhere in the world",
