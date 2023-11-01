@@ -8,6 +8,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import Filtrd from "../assets/img/filtrd.png"
+import Skill from "../assets/img/skill.png"
+import jojolo from "../assets/img/jojolo.png"
+
 
 export const Projects = () => {
 
@@ -25,10 +28,22 @@ export const Projects = () => {
       // id:"https://filtrd.io/"
     },
     {
+      title: "Skillup Africa",
+      description: "An application that provides young Africans with top quality training in globally viable skills and connects them to opportunities to harness the skills ",
+      imgUrl: Skill,
+      id:"https://skillupafrica.com.ng/"
+    },
+    {
       title: "Howbodi",
       description: "An application that helps you to access mental healthcare from anywhere in the world",
       imgUrl: Howbodi,
       id:"https://www.howbodi.io"
+    },
+    {
+      title: "Jojolo",
+      description: "An application that helps you to access mental healthcare from anywhere in the world",
+      imgUrl: jojolo,
+      id:"https://www.jojoloapp.com/"
     },
     {
       title: "Skillup Africa",

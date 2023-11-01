@@ -4,6 +4,7 @@ import headerImg from "../assets/img/myimage.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Pics from "../assets/img/picss.png"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -64,9 +65,20 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-                <div className= "animate__animated animate__zoomIn">
-                  <img src={headerImg} alt="Header Img" />
-                </div>
+          <div className="animate__animated animate__zoomIn" style={{ position: "relative" }}>
+              <img src={Pics} alt="Header Img" />
+              <div
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                  background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8))",
+                  zIndex: 1,
+                }}
+              />
+            </div>
           </Col>
         </Row>
       </Container>
