@@ -4,7 +4,8 @@ import headerImg from "../assets/img/myimage.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import Pics from "../assets/img/picss.png"
+// import Pics from "../assets/img/picss.png"
+import Pics from "../assets/img/work.jpeg"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,7 +59,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Adebayo Tobi, a`} <span className="txt-rotate" dataperiod="1000" data-rotate='["Frontend Developer", "Software Developer", "Web Developer"]'><span className="wrap">{text}</span></span></h1>
-                  <p> Creative Frontend Developer offering experience and providing high-impact web solutions for diverse industries and organizations. Skilled in designing and developing web-based applications incorporating a range of technologies.</p>
+                  <p> Creative Frontend Developer offering experience and providing high-impact web solutions for diverse industries and organizations. Skilled in developing web-based applications incorporating a range of technologies.</p>
                   <button onClick={() => console.log('connect')}>Hire Me <ArrowRightCircle size={25} /></button>
             
                 </div>}
