@@ -68,7 +68,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
           <div className="animate__animated animate__zoomIn" style={{ position: "relative" }}>
               <img src={Pics} alt="Header Img" />
-              <div
+              {/* <div
                 style={{
                   position: "absolute",
                   top: 0,
@@ -78,7 +78,7 @@ export const Banner = () => {
                   background: "linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8))",
                   zIndex: 1,
                 }}
-              />
+              /> */}
             </div>
           </Col>
         </Row>
