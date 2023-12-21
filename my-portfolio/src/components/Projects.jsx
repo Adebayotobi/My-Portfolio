@@ -10,6 +10,7 @@ import TrackVisibility from 'react-on-screen';
 import Filtrd from "../assets/img/filtrd.png"
 import Skill from "../assets/img/skill.png"
 import jojolo from "../assets/img/jojolo.png"
+import myEstate from "../assets/img/myEstate.png"
 
 
 export const Projects = () => {
@@ -20,6 +21,18 @@ export const Projects = () => {
       description: "Skillup Africa Digital Skills Empowerment Program is in its 6th Cohort and open to young people from Africa interested in learning viable Tech skills and attracting opportunities globally.ks sales and supply",
       imgUrl: Skillup,
       id:"https://dsep.skillupafrica.com.ng"
+    },
+    {
+      title: "Skillup Africa",
+      description: "An application that provides young Africans with top quality training in globally viable skills and connects them to opportunities to harness the skills ",
+      imgUrl: skillup,
+      id:"https://community.skillupafrica.com.ng"
+    },
+    {
+      title: "Howbodi",
+      description: "An application that helps you to access mental healthcare from anywhere in the world",
+      imgUrl: Howbodi,
+      id:"https://www.howbodi.io"
     },
     {
       title: "Filtrd",
@@ -34,22 +47,10 @@ export const Projects = () => {
       id:"https://skillupafrica.com.ng/"
     },
     {
-      title: "Howbodi",
-      description: "An application that helps you to access mental healthcare from anywhere in the world",
-      imgUrl: Howbodi,
-      id:"https://www.howbodi.io"
-    },
-    {
-      title: "Jojolo",
-      description: "An application that helps you to access mental healthcare from anywhere in the world",
-      imgUrl: jojolo,
-      id:"https://www.jojoloapp.com/"
-    },
-    {
-      title: "Skillup Africa",
-      description: "An application that provides young Africans with top quality training in globally viable skills and connects them to opportunities to harness the skills ",
-      imgUrl: skillup,
-      id:"https://community.skillupafrica.com.ng"
+      title: "MyEstate App",
+      description: "Experience the Ultimate Solution for Seamless Gated Estate Management",
+      imgUrl: myEstate,
+      id:"https://myestate.ng/"
     },
    
     {
@@ -58,7 +59,12 @@ export const Projects = () => {
       imgUrl: WhoUePP,
       id:"https://www.whouepp.com"
     },
-
+    {
+      title: "Jojolo",
+      description: "An application that helps you to access mental healthcare from anywhere in the world",
+      imgUrl: jojolo,
+      id:"https://www.jojoloapp.com/"
+    },
     // {
     //   title: "Tochel Partners",
     //   description: "A company that carries out parts and articulated trucks sales and supply",

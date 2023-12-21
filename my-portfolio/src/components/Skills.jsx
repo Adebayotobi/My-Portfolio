@@ -49,16 +49,20 @@ export const Skills = () => {
                                 <h5>REACT Js</h5>
                             </div>
                             <div className="item">
-                                <img src={next} alt="Image" />
-                                <h5>Next JS</h5>
+                                <img src={javascript} alt="Image" />
+                                <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Cypress} alt="Image" />
+                                <h5>Cypress</h5>
                             </div>
                             <div className="item">
                                 <img src={typescript} alt="Image" />
                                 <h5>Typescript</h5>
                             </div>
                             <div className="item">
-                                <img src={javascript} alt="Image" />
-                                <h5>Javascript</h5>
+                                <img src={next} alt="Image" />
+                                <h5>Next JS</h5>
                             </div>
                             <div className="item">
                                 <img src={node} alt="Image" />
@@ -67,10 +71,6 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={react} alt="Image" />
                                 <h5>React Testing Library</h5>
-                            </div>
-                            <div className="item">
-                                <img src={Cypress} alt="Image" />
-                                <h5>Cypress</h5>
                             </div>
                             <div className="item">
                                 <img src={bootstrap} alt="Image" />
