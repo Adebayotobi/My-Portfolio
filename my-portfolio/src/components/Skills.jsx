@@ -14,6 +14,9 @@ import rest from "../assets/img/restful.png";
 import node from "../assets/img/node.png";
 import colorSharp from "../assets/img/color-sharp.png"
 import Cypress from "../assets/img/cypress.png"
+import Regression from "../assets/img/regression.jpeg"
+import CICD from "../assets/img/ci-cd.png"
+import Postman from "../assets/img/postman.jpeg"
 
 export const Skills = () => {
   const responsive = {
@@ -57,12 +60,24 @@ export const Skills = () => {
                                 <h5>Cypress</h5>
                             </div>
                             <div className="item">
+                                <img src={Postman} alt="Image" />
+                                <h5>Postman</h5>
+                            </div>
+                            <div className="item">
+                                <img src={Regression} alt="Image" />
+                                <h5>Regression Testing</h5>
+                            </div>
+                            <div className="item">
                                 <img src={typescript} alt="Image" />
                                 <h5>Typescript</h5>
                             </div>
                             <div className="item">
                                 <img src={next} alt="Image" />
                                 <h5>Next JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={CICD} alt="Image" />
+                                <h5>CI-CD</h5>
                             </div>
                             <div className="item">
                                 <img src={node} alt="Image" />

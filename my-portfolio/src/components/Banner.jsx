@@ -59,7 +59,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Adebayo Tobi, a`} <span className="txt-rotate" dataperiod="1000" data-rotate='["Frontend Developer", "Software Developer", "Web Developer"]'><span className="wrap">{text}</span></span></h1>
-                  <p> Creative Frontend Developer offering experience and providing high-impact web solutions for diverse industries and organizations. Skilled in developing web-based applications incorporating a range of technologies.</p>
+                  <p>Creative Frontend and QA Engineer with a proven track record in delivering high-impact web solutions for diverse industries and organizations. Adept at developing web-based applications with a focus on seamless user experiences, incorporating a range of technologies. Skilled in ensuring software quality through comprehensive QA testing, identifying and resolving issues to optimize overall system performance.</p>
                   <button onClick={() => console.log('connect')}>Hire Me <ArrowRightCircle size={25} /></button>
             
                 </div>}
